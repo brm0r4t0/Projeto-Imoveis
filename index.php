@@ -2,7 +2,6 @@
 <html>
     <head>
         <meta charset="utf-8">
-		<title>MENU PRINCIPAL</title>
         <link rel="stylesheet" href="./css/style.css" type="text/css" charset="utf-8">
     </head>
     <style type="text/css">
