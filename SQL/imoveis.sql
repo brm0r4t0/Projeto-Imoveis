@@ -18,6 +18,9 @@
 --
 -- Table structure for table `aluga`
 --
+CREATE database imoveis;
+
+USE imoveis;
 
 DROP TABLE IF EXISTS `aluga`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
@@ -39,7 +42,7 @@ CREATE TABLE `aluga` (
 
 LOCK TABLES `aluga` WRITE;
 /*!40000 ALTER TABLE `aluga` DISABLE KEYS */;
-INSERT INTO `aluga` VALUES (7,22,'2022-11-09',500,'2022-11-21 22:45:31',NULL);
+-- INSERT INTO `aluga` VALUES (7,22,'2022-11-09',500,'2022-11-21 22:45:31',NULL);
 /*!40000 ALTER TABLE `aluga` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -67,7 +70,7 @@ CREATE TABLE `imovel` (
 
 LOCK TABLES `imovel` WRITE;
 /*!40000 ALTER TABLE `imovel` DISABLE KEYS */;
-INSERT INTO `imovel` VALUES (7,987,'Rua Igaratinga',100,'2022-11-21 11:19:34','2022-11-21 13:49:28'),(8,2345,'rual',34,'2022-11-21 22:47:37',NULL);
+-- INSERT INTO `imovel` VALUES (7,987,'Rua Igaratinga',100,'2022-11-21 11:19:34','2022-11-21 13:49:28'),(8,2345,'rual',34,'2022-11-21 22:47:37',NULL);
 /*!40000 ALTER TABLE `imovel` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -95,7 +98,7 @@ CREATE TABLE `locador` (
 
 LOCK TABLES `locador` WRITE;
 /*!40000 ALTER TABLE `locador` DISABLE KEYS */;
-INSERT INTO `locador` VALUES (5,'andre',46546,1313,'2022-11-21 12:19:22',NULL);
+-- INSERT INTO `locador` VALUES (5,'andre',46546,1313,'2022-11-21 12:19:22',NULL);
 /*!40000 ALTER TABLE `locador` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -123,7 +126,7 @@ CREATE TABLE `locatario` (
 
 LOCK TABLES `locatario` WRITE;
 /*!40000 ALTER TABLE `locatario` DISABLE KEYS */;
-INSERT INTO `locatario` VALUES (3,'Manuel',123,123,'2022-11-21 11:24:08','2022-11-21 12:58:51'),(4,'mario',4654,4565,'2022-11-21 12:33:36',NULL);
+-- INSERT INTO `locatario` VALUES (3,'Manuel',123,123,'2022-11-21 11:24:08','2022-11-21 12:58:51'),(4,'mario',4654,4565,'2022-11-21 12:33:36',NULL);
 /*!40000 ALTER TABLE `locatario` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
