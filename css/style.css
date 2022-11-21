@@ -1,0 +1,25 @@
+.menu {
+    color: white;
+    width: 350px; 
+    margin-left: auto;
+    margin-right: auto; 
+    
+}
+.tabelaMenu {
+    position: relative;
+    left: 695px;
+    height: 120px;
+}
+body {
+    background-image: linear-gradient(to right, rgb(20, 147,220), rgb(17, 54, 71));
+}
+.linkMenu {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 13px;    
+    text-transform: uppercase;
+}
