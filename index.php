@@ -40,7 +40,7 @@
     </style>
     <body>
 
-        <h1>SISTEMA</h1>
+        <h1>SISTEMA DE IMÓVEIS</h1>
 
         <img src="./img/Logo_CEFET-MG.png">
         <div class="box">
